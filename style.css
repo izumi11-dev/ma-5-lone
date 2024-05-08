@@ -1,0 +1,116 @@
+.header {
+        font-size: 30px;
+}
+.image{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 20px;
+        
+}
+.image img{
+        border: 2px solid red;
+}
+
+.foot{
+        font-size: 20px;
+        text-align: center;
+}
+.foot span{
+        color: red;
+}
+ @media screen and (max-width: 600px){
+         .image{
+                 grid-template-columns: auto auto auto ;
+                 margin-top: 100px;
+                 gap: 20px;
+                 
+         }
+         
+         .image img{
+                 height: 150px;
+                 width: 100px;
+                
+         }
+         .header{
+                 font-size: 15px;
+         }
+         .foot{
+                 margin-top: 100px;
+                 font-size: 30px;
+         }
+         .end{
+                 margin-top: 60px;
+                 font-size: 9px;
+                 text-align: center;
+         }
+         .foot small{
+                 font-size: 10px;
+         }
+ }
+ 
+   /*ma 5 lone css style*/
+ .reviewHead{
+        color :red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 30px;
+}
+
+.reviewHead button{
+        margin-left: 10px;
+        
+}
+.reviewImg{
+        text-align: center;
+        margin-top: 50px;
+}
+.about{
+        margin-top: 40px;
+        margin-left: 20px;
+}
+
+.writer{
+        color: red;
+}
+.btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+}
+.btns button{
+        
+        width: 100px;
+        height: 50px;
+        
+}
+
+@media screen and (max-width: 600px){
+        .reviews{
+                font-size: 13px;
+        }
+        
+        .reviewHead span{
+                font-size: 20px;
+                margin-top: 11px;
+                font-weight: bold;
+        }
+        
+        .about{
+                margin-left: 5px;
+        }
+        .may-head button{
+                margin-left: 5px;
+                color: darkred;
+        }
+        .reviewImg img{
+                width: 100px;
+                height: 150px;
+        }
+        .btns button{
+                width: 80px;
+                height: 30px;
+        }
+}
